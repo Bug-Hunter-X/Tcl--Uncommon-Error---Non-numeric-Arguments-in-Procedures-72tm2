@@ -1,0 +1,1 @@
+proc badproc {a b} {return $a + $b} puts [badproc 2 3] puts [badproc 2 abc]
